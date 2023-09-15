@@ -1,0 +1,42 @@
+.cards-contain{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.card-main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card-main h1{
+    padding-left: 300px;
+    text-align: left;
+}
+.card-main p{
+    padding-left: 300px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.middle-card{
+    background-color: #E47103 !important;
+    border-radius: 10px;
+}
+.middle-card button{
+    background-color: rgb(211, 229, 128) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .cards-contain {
+      display: flex;
+      flex-direction: column;
+    }
+    .card-main h1{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .card-main p{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+  }

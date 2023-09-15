@@ -1,0 +1,154 @@
+.accordian-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    gap: 20px;
+    padding-top: 50px;
+}
+.accordian{
+    margin-bottom: 180px;
+    margin-left: 100px;
+    width: 500px;
+}
+.accordian h1 {
+    text-align: left;
+}
+.accordian p {
+    text-align: left;
+}
+
+.item{
+    border: 1px solid;
+    margin-bottom: 10px;
+    padding: px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.item .show{
+    border: 2px solid #E47103;
+    margin-bottom: 10px;
+    padding: px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+
+.title{
+    color: rgb(169, 104, 25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    
+}
+.answer.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    font-weight: bold;
+}
+.accordian-images{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FAF1EB;
+    gap: 1rem;
+    border-radius: 50px;
+}
+.ac1row{
+    display: flex;
+}
+.ac1row img{
+    height: 200px;
+    width: 200px;
+    background-color: #CEB19B;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    gap: 2rem;
+}
+.ac2row{
+    display: flex;
+}
+.ac2row img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    gap: 2rem;
+}
+.cat{
+    height: 250px !important;
+    width: 220px !important;
+    margin-left: 10px;
+    
+}
+.multi{
+    background-color: #FDD395;
+    margin-left: 10px;
+    width: 220px !important;
+}
+.dog{
+    margin-top: 50px;
+    height: 250px !important;
+    width: 200px !important;
+}
+.lady{
+    margin-bottom: 50px !important;
+    width: 220px !important;
+}
+
+
+@media only screen and (max-width:600px) {
+    .accordian-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .accordian{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        width: 350px;
+    }
+    .cat{
+        height: 200px !important;
+        width: 150px !important;
+        margin-left: 10px;
+        
+    }
+    .multi{
+       
+        margin-left: 10px;
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .dog{
+        margin-top: 50px;
+        height: 200px !important;
+        width: 150px !important;
+    }
+    .lady{
+        margin-bottom: 50px !important;
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .accordian-images{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: bisque;
+        gap: 1rem;
+        border-radius: 50px;
+        width: 85vw;
+    }
+}

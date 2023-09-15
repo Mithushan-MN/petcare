@@ -1,0 +1,56 @@
+.booking{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 1rem;
+    background-color: #f1edcb;
+}
+.bookingleft img{
+    width: 300px;
+}
+
+.bookingright{
+    /* width: 50%; */
+    /* background-image: url('../../images/gallery\ \(1\).jpg'); */
+    background-color: #FED8BE 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bookingright button{
+    background-color: #E47103;
+    color: #fff;
+    font-size: 25px;
+    width: 450px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+    border-color: #E47103;
+    border-style: hidden;
+    /* margin-right: 122px;
+    margin-top: 80px; */
+}
+.bookingright button:hover{
+    background-color: transparent;
+    border: #E47103 4px solid;
+    color: #E47103;
+}
+.inputitems{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    border: #E47103 2px solid;
+    background-color: transparent;
+    font-size: 20px;
+}
